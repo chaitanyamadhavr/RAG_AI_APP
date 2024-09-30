@@ -1,5 +1,8 @@
 # InsightBot: Your AI Personal Insights Hub
 
+Video Link: 
+Documentation Name: 
+
 ## What is InsightBot?
 InsightBot 🤖 is a specialized chatbot designed to provide personalized insights about yourself. Leveraging a user's natural language queries, it delivers precise responses on your qualifications, experiences, and achievements, helping you navigate through your personal data with ease.
 
