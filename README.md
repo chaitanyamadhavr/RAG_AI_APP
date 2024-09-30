@@ -3,7 +3,7 @@
 Documentation Name: RAG_Documentation.pdf
 
 ## What is InsightBot?
-InsightBot 🤖 is a specialized chatbot designed to provide personalized insights about yourself. Leveraging a user's natural language queries, it delivers precise responses on your qualifications, experiences, and achievements, helping you navigate through your personal data with ease.
+InsightBot 🤖 is a specialized RAG chatbot designed to provide personalized insights about yourself. Leveraging a user's natural language queries, it delivers precise responses on your qualifications, experiences, and achievements, helping you navigate through your personal data with ease.
 
 ### Instructions on How to Setup and Run
 ### Step 1: Install Required Python Libraries
