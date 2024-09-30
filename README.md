@@ -1,7 +1,5 @@
 # InsightBot: Your Personal AI Insights Hub
 
-Video Link: 
-
 Documentation Name: RAG_Documentation.pdf
 
 ## What is InsightBot?
