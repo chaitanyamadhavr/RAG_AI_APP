@@ -21,13 +21,12 @@ For pysqlite3 installation keep the wheel file (available in Github repo) in you
 pip install pysqlite3_wheels-0.5.0-cp310-cp310-win_amd64
 ```
 ### Step 2: Generate and Store Embeddings
-There are two Python files: embeddings_generator.py and WaLL-E.py.
 
 Set Up API Keys: Ensure your HuggingFace API Token is in the .env file
 ```
 HUGGINGFACEHUB_API_TOKEN = "<HUGGINGFACEHUB_API_TOKEN>"
 ```
-Generate Embeddings: Run vector_embeddings.py to process the fashion data PDF and store the results in the Chroma Vector Database in the "data" directory.
+Generate Embeddings: Run vector_embeddings.py to process the personal data PDF/txt and store the results in the Chroma Vector Database in the "vector_db" directory.
 ```
 python vector_embeddings.py
 ```
