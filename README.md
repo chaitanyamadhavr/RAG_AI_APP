@@ -6,8 +6,9 @@ InsightBot 🤖 is a specialized chatbot designed to provide personalized insigh
 # Instructions on How to Setup and Run
 # Step 1: Install Required Python Libraries
 Install the necessary libraries from the requirements.txt file
-
+```
 pip install -r requirements.txt
+```
 
 NOTE: If there is issue with Pysqlite3 installation, follow below steps
 
