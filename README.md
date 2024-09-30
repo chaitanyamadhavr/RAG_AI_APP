@@ -1,6 +1,7 @@
-# InsightBot: Your AI Personal Insights Hub
+# InsightBot: Your Personal AI Insights Hub
 
 Video Link: 
+
 Documentation Name: 
 
 ## What is InsightBot?
