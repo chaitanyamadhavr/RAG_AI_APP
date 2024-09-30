@@ -20,7 +20,7 @@ pip install pysqlite3_wheels-0.5.0-cp310-cp310-win_amd64.whl
 ```
 ### Step 2: Generate and Store Embeddings
 
-Set Up API Keys: Ensure your HuggingFace API Token is in the .env file
+Set Up API Keys: Ensure your HuggingFace API Token is in the .env file (Create a seperate file called ".env" and copy paste the content from env.txt given in repository)
 ```
 HUGGINGFACEHUB_API_TOKEN = "<HUGGINGFACEHUB_API_TOKEN>"
 ```
