@@ -18,7 +18,7 @@ NOTE: If there is issue with Pysqlite3 installation, follow below steps
 
 For pysqlite3 installation keep the wheel file (available in Github repo) in your project directory and run below command
 ```
-pip install pysqlite3_wheels-0.5.0-cp310-cp310-win_amd64
+pip install pysqlite3_wheels-0.5.0-cp310-cp310-win_amd64.whl
 ```
 ### Step 2: Generate and Store Embeddings
 
