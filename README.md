@@ -1,10 +1,10 @@
 # InsightBot: Your AI Personal Insights Hub
 
-# What is InsightBot?
+## What is InsightBot?
 InsightBot 🤖 is a specialized chatbot designed to provide personalized insights about yourself. Leveraging a user's natural language queries, it delivers precise responses on your qualifications, experiences, and achievements, helping you navigate through your personal data with ease.
 
-# Instructions on How to Setup and Run
-# Step 1: Install Required Python Libraries
+### Instructions on How to Setup and Run
+### Step 1: Install Required Python Libraries
 Install the necessary libraries from the requirements.txt file
 ```
 pip install -r requirements.txt
@@ -16,7 +16,7 @@ For pysqlite3 installation keep the wheel file (available in Github repo) in you
 ```
 pip install pysqlite3_wheels-0.5.0-cp310-cp310-win_amd64
 ```
-# Step 2: Generate and Store Embeddings
+### Step 2: Generate and Store Embeddings
 There are two Python files: embeddings_generator.py and WaLL-E.py.
 
 Set Up API Keys: Ensure your HuggingFace API Token is in the .env file
@@ -27,7 +27,7 @@ Generate Embeddings: Run vector_embeddings.py to process the fashion data PDF an
 ```
 python vector_embeddings.py
 ```
-# Step 3: Launch InsightBot
+### Step 3: Launch InsightBot
 After setting up the embeddings, launch the InsightBot interface by running:
 ```
 streamlit run InsightBot.py
