@@ -5,6 +5,8 @@ from langchain_community.llms import HuggingFaceHub
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 import warnings, os
+from langchain.memory import ConversationBufferMemory
+from langchain.chains import RetrievalQA
 import json
 from dotenv import load_dotenv
 warnings.filterwarnings("ignore")
@@ -49,7 +51,6 @@ Question: {question}
 
 Answer:
 """
-
 
 custom_prompt = PromptTemplate(template=prompt_template, input_variables=["context", "question"])
 
