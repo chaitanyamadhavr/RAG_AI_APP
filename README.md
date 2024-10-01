@@ -1,4 +1,4 @@
-# InsightBot: Your Personal AI Insights Hub
+# InsightBot: Your Personal Insights Hub
 
 Documentation Name: RAG_Documentation.pdf
 
