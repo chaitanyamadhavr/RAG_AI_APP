@@ -24,6 +24,10 @@ Set Up API Keys: Ensure your HuggingFace API Token is in the .env file (Create a
 ```
 HUGGINGFACEHUB_API_TOKEN = "<HUGGINGFACEHUB_API_TOKEN>"
 ```
+Setup Groq API Key:
+```
+Groq_API_TOKEN = "<Groq_API_TOKEN>"
+```
 Generate Embeddings: Run vector_embeddings.py to process the personal data PDF/txt and store the results in the Chroma Vector Database in the "vector_db" directory.
 ```
 python vector_embeddings.py
