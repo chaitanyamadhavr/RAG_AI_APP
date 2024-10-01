@@ -24,7 +24,7 @@ Set Up API Keys: Ensure your HuggingFace API Token is in the .env file (Create a
 ```
 HUGGINGFACEHUB_API_TOKEN = "<HUGGINGFACEHUB_API_TOKEN>"
 ```
-Setup Groq API Key:
+Setup Groq API Key in config.json file:
 ```
 Groq_API_TOKEN = "<Groq_API_TOKEN>"
 ```
