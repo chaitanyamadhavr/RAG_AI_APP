@@ -11,10 +11,20 @@ load_dotenv()
 
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 
-# Load the text file
-txt_file_path = "Information.txt"  # Provide your .txt file path here
-with open(txt_file_path, 'r', encoding='utf-8') as file:
-    text_content = file.read()
+# Define the directory containing text files
+data_folder = "data"
+
+# Ensure the directory exists
+if not os.path.exists(data_folder):
+    raise FileNotFoundError(f"The folder '{data_folder}' does not exist.")
+
+# Read all .txt files from the data folder
+text_content = ""
+for file_name in os.listdir(data_folder):
+    if file_name.endswith(".txt"):
+        txt_file_path = os.path.join(data_folder, file_name)
+        with open(txt_file_path, 'r', encoding='utf-8') as file:
+            text_content += file.read() + "\n"  # Append content from each file
 
 # Split the text using a text splitter
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=300)
